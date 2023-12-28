@@ -94,12 +94,12 @@ public class Klijent {
 				System.out.println("6) Odjava");
 			}
 			System.out.println("0) IZLAZ");
-			izbor = meniInputHandler(input.nextLine());
+			izbor = menuInputProof(input.nextLine());
 		}
 		return izbor;
 	}
 
-	private static int meniInputHandler(String str) { // nepotrebno idiot proof-ovanje za meni; nema na cemu
+	private static int menuInputProof(String str) { // nepotrebno idiot proof-ovanje za meni; nema na cemu
 		if (str == null || str.equals("")) {
 			return -1;
 		}
